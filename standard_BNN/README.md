@@ -26,8 +26,8 @@ We provide an easy way to replicate one of the experiment of the paper. To do th
 
 Guidelines (assuming you meet the hardware requirements and use linux):
 
-     git clone https://github.com/2019submission/ICML2019.submission.git
-     cd ./ICML2019.submission/standard_BNN/example
+     git clone  https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git
+     cd ./DecoupledBayesianCalibration.pytorch/standard_BNN/example
      ./example.sh
 
 ## Baseline Results

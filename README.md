@@ -1,5 +1,5 @@
 # BayesianDeepModelCalibration.pytorch
-Code for reproducing some of the experiments of the ICML 2019 submission named Calibration of Deep Probabilistic Models with Decoupled Bayesian Neural Networks. Follow the instructions.
+Code for reproducing some of the experiments of the Preprint Work named Calibration of Deep Probabilistic Models with Decoupled Bayesian Neural Networks. Follow the instructions.
 
 ## Important
 

@@ -25,13 +25,14 @@ Use bash instead of dash. This is not a limitation but is preferable if you are 
 We provide an easy way to replicate one of the experiment of the paper. To do this you do not have to install anything, we do it for you. Just go inside the example folder and execute example.sh. This file will download pytorch, download a set of data, train temperature scaling and train a BNN applying LR. You can follow the guidelines from this example to replicate any of the experiments provided.
 
 Guidelines (assuming you meet the hardware requirements and use linux):
+ 
+ ```
+ git clone https://github.com/https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git
+ cd ./https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git/LR_BNN/example
+ ./example.sh
 
  ```
- git clone https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git
- cd ./DecoupledBayesianCalibration.pytorch/LR_BNN/example
- ./example.sh
- ```
-  
+
 ## Baseline Results
 
 Follow the steps in the standard_BNN folder
@@ -145,7 +146,9 @@ As we mentioned above there is a difference when using --save_model_every or --s
     python main_predictive_inference_optimized.py --model_dir pathtoMYMODEL/MYMODEL/models/BNN.pth.tar     # you did not set it
 
 
-In cifar100 each run of the algorithm must save the model every 50 epochs ( --save_after [after_nepochs] ). | Database  | Model | BNN Topology | Monte Carlo Samples | Epochs | Learning Rates | KL SCALE FACTOR | M for test | Model at Epoch | 
+In cifar100 each run of the algorithm must save the model every 50 epochs ( --save_after [after_nepochs] ).
+
+| Database  | Model | BNN Topology | Monte Carlo Samples | Epochs | Learning Rates | KL SCALE FACTOR | M for test | Model at Epoch | 
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- | -------------  | ------------- | ------------- | ------------- | 
 | CIFAR10  | WideResNet-28x10 | 10-512-10 | 1 | 50 | 0.01 | 0.01  | 15 | - |
 | CIFAR10  | DenseNet-121 | 10-32-32-10 | 1 | 50 | 0.01 | 0.1 |  23 | - |

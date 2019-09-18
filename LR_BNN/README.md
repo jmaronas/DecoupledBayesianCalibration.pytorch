@@ -28,7 +28,7 @@ Guidelines (assuming you meet the hardware requirements and use linux):
  
  ```
  git clone https://github.com/https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git
- cd ./https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch.git/LR_BNN/example
+ cd ./DecoupledBayesianCalibration.pytorch/LR_BNN/example
  ./example.sh
 
  ```
@@ -37,7 +37,7 @@ Guidelines (assuming you meet the hardware requirements and use linux):
 
 Follow the steps in the standard_BNN folder
 
-## Training Variational Distribution (optimize the ELBO aplying Local Reparameterization)
+## Training Variational Distribution (optimize the ELBO applying Local Reparameterization)
 
 ```
 python main_ELBO_withLR.py  --model_net [model_net] --data_dir [data_dir] --dataset [choosed_dataset] --MC_samples [MC] --layer_dim [ldim] --n_layers [nlay]  --save_after [after_nepochs] --save_model_every [each_nepochs] --epochs [epochs_used] --lr [lr_used] --batch  [batch_used] --anneal [anneal_used] --n_gpu [gpu_id] --folder_name [folder_name_provided] --dkl_after_epoch [DAE] --dkl_scale_factor [DSF] --prior_is_learnable [islearnable] 

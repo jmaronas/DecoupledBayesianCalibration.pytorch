@@ -7,7 +7,7 @@ As PyTorch is a recent software, the experiments performed in this work have bee
 
 This code is uploaded just to justify the results provided in the work, and not for a general purpose application. This means that, for instance, code is only prepared to run in GPU and python2.7. Moreover, not all the code has been made to be able to manage any topology. We use some code to make an initial check that was use on some experiments. Once we saw that our hypothesis worked we did more a efficient implementation. Feel free to modify it. 
 
-In the work we report more than 60 experiments. We uploaded some data files to google drive, but not all of them. Feel free to send an email to [elmaronias@gmail.com](elmaronias@gmail.com) requesting the logits for a particular experiment.
+In the work we report more than 60 experiments. We uploaded some data files to google drive, but not all of them. Feel free to send an email to [jmaronasm@gmail.com](jmaronasm@gmail.com) requesting the logits for a particular experiment.
 
 Again, we will not update this code to python3 (python 2 is deprecated starting on 2020). This is because the results might be affected if the way of generating random numbers changes. This is one of the main reasons for uploading the unoptimized code, as the results using the optimized version changed and we did not want to redoo many of the experiments. 
 

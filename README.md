@@ -1,5 +1,5 @@
 # BayesianDeepModelCalibration.pytorch
-Code for reproducing some of the experiments of the Preprint Work named Calibration of Deep Probabilistic Models with Decoupled Bayesian Neural Networks. Follow the instructions.
+Code for reproducing some of the experiments of the Preprint Work named Calibration of Deep Probabilistic Models with Decoupled Bayesian Neural Networks. Follow the instructions. Link for supplementary material for details on the results presented in the work (for instance the number used to compute the average values) is [here](https://github.com/jmaronas/DecoupledBayesianCalibration.pytorch/blob/master/APENDICE.pdf)
 
 ## Important
 
